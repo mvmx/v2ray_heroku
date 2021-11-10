@@ -1,3 +1,3 @@
-FROM pansila/v2ray_heroku:latest
+FROM mvmx/v2ray_heroku:latest
 
 ENTRYPOINT ["/usr/local/bin/run_v2ray.sh"]
